@@ -1,0 +1,45 @@
+<!--Using James Grieve (Grieve, 2020) method from the shopping list classroom example.  Modified the work specifically for this assignment.
+-->
+
+<!DOCTYPE html>
+<html lang="en"><!--To set the primary language of my website to english-->
+  <head>
+    <title>Jia's Super Exiciting To-Do App</title><!--To show the browser title about my app-->
+
+    <!--The charset attribute specifies the character encoding for the HTML document. w3schools website will be refereced as (w3schools, 2020) onwards
+        @link: https://www.w3schools.com/tags/att_meta_charset.asp-->
+    <meta charset="UTF-8">
+
+    <!-- For modern responsive web development @link: https://www.w3schools.com/css/css_rwd_viewport.asp -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Standard viewport setting according to (w3schools, 2020)-->
+
+    <!-- Meta Data: 
+    Metadata will not be displayed on the page, but is machine parsable.
+    Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+    https://www.w3schools.com/tags/tag_meta.asp-->
+    <meta name="description" content="A vanilla JavaScript website of To-Do list"><!--To tell search engine/robot about the description of my website-->
+    <meta name="author" content="Jia Von"><!--Tell the search engine about the author for this website.-->
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <!-- Style(s): -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Script(s): -->
+    <!-- defer attribute will cause this script to wait until the body is loaded before executing (important for DOM / element manipulation by scripts) -->
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jia's Super Exiciting To-Do App</h1>
+      <div>
+        <input type="text">
+        <a href="#">Add Task</a>
+      </div>
+      <p id="error-output"></p>
+      <ul class="empty">
+        <li>No items yet!</li>
+      </ul>
+    </div>
+  </body>
+</html> 

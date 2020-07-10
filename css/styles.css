@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #DCC7AA; /*colour selection from Apricot Avalanche (Avalance, 2020) @link: https://hookagency.com/website-color-schemes/ */
+}
+.container {
+    width: 80%;
+    min-width: 400px;
+    max-width: 1200px;
+}
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 16px 0 ;
+}
+a {
+    color: white;
+    background-color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+input {
+    height: 36px;
+}
+ul.empty {
+    list-style: none;
+    padding: 0;
+}
+ul {
+    margin: 10px 0;
+    list-style: square;
+    padding: 0 20px;
+}
+ul li {
+    margin: 5px 0;
+}
+#error-output {
+    font-size: 20px;
+    margin: 10px 0;
+    color: firebrick;
+    font-weight: bold;
+}

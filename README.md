@@ -1,7 +1,17 @@
-# html-css-js-to-do-list-assignment-jia-von
+# Javascript To-Do List Assignment
 
-html-css-js-to-do-list-assignment-jia-von created by GitHub Classroom
+The goal of this assignment is to crate a To-Do list using HTML and Javascipt. It helps me to understand DOM manipulation and working with arrays. 
+The working To-Do App is available in this [link](https://jia-von.github.io/html-css-js-to-do-list-assignment/).
 
-Trello Board: https://trello.com/b/sjl49HZL/javascript-assignment
+## Download
 
-Grieve, 2020. 'Shopping List' Script created by James Grieve on July 7, 2020 will be referenced as (Grieve, 2020)
+To run HTML in your local host. You may clone the repo. 
+
+```bash
+
+$ git clone https://github.com/jia-von/html-css-js-to-do-list-assignment.git
+
+````
+## Screenshot
+
+![Browser](/References/Browser.PNG)
